@@ -69,11 +69,38 @@
       color: #00ff7f;
       text-decoration: none;
     }
+    nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+nav a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.25);
+  transition: 0.2s;
+}
+
+nav a:hover {
+  background: #00ff7f;
+  color: #000;
+}
+
   </style>
 </head>
 <body>
   <header>
-    Gaming-Fam – Info
+    <nav>
+       <a href="index.html">Startseite</a>
+       <a href="info.html">Info</a>
+       <a href="events.html">Events</a>
+       <a href="clips.html">Clips</a>
+       <a href="hall-of-fame.html">Hall of Fame</a>
+    </nav>
   </header>
 
   <main>
