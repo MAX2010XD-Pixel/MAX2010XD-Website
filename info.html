@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Gaming-Fam – Info</title>
   <style>
+    
     body {
       margin: 0;
       font-family: system-ui, sans-serif;
@@ -13,13 +14,19 @@
 
     header {
       padding: 20px 40px;
-      background: linear-gradient(90deg, #00ff7f, #00c46b);
-      font-weight: bold;
-      font-size: 26px;
-      letter-spacing: 1px;
-      color: #000;
+  background: linear-gradient(90deg, #00ff7f, #00c46b);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+  font-weight: bold;
     }
-
+    
+    .brand {
+  font-size: 26px;
+  letter-spacing: 1px;
+}
+    
     main {
       padding: 40px;
       max-width: 900px;
@@ -71,18 +78,18 @@
     }
     nav {
   display: flex;
-  gap: 20px;
-  align-items: center;
+  gap: 12px;
 }
 
 nav a {
   color: #000;
   font-weight: bold;
   text-decoration: none;
-  padding: 8px 14px;
+  padding: 6px 10px;
   border-radius: 6px;
   background: rgba(255, 255, 255, 0.25);
   transition: 0.2s;
+  font-size: 14px;
 }
 
 nav a:hover {
