@@ -7,83 +7,104 @@
     body {
       margin: 0;
       font-family: system-ui, sans-serif;
-      background: #0a0a0f;
+      background: #050807;
       color: #e5e5e5;
     }
+
+    /* HEADER + NAVIGATION */
     header {
-      padding: 20px 40px;
-      background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+      padding: 20px 0;
+      background: linear-gradient(90deg, #00ff7f, #00c46b);
+      text-align: center;
+      color: #000;
       font-weight: bold;
-      font-size: 26px;
+      font-size: 28px;
       letter-spacing: 1px;
     }
+
+    nav {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    nav a {
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 6px 10px;
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.25);
+      transition: 0.2s;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      background: #00ff7f;
+      color: #000;
+    }
+
+    /* INHALT */
     main {
       padding: 40px;
       max-width: 900px;
       margin: 0 auto;
     }
+
     h1 {
       font-size: 36px;
       margin-bottom: 10px;
+      color: #00ff7f;
     }
+
     .tagline {
-      color: #93c5fd;
+      color: #7affb3;
       margin-bottom: 30px;
       font-size: 18px;
     }
+
     .card {
-      background: rgba(20, 20, 30, 0.9);
+      background: rgba(10, 20, 15, 0.9);
       border-radius: 12px;
       padding: 20px 24px;
       margin-bottom: 20px;
-      border: 1px solid rgba(148, 163, 184, 0.3);
+      border: 1px solid rgba(0, 255, 127, 0.3);
     }
+
     .card h2 {
       margin-top: 0;
       margin-bottom: 8px;
       font-size: 24px;
+      color: #00ff7f;
     }
+
     .pill {
       display: inline-block;
       padding: 4px 10px;
       border-radius: 999px;
-      background: rgba(59, 130, 246, 0.2);
-      color: #60a5fa;
+      background: rgba(0, 255, 127, 0.15);
+      color: #00ff7f;
       font-size: 12px;
       text-transform: uppercase;
       letter-spacing: 0.08em;
       margin-bottom: 10px;
     }
-    nav {
-      display: flex;
-      gap: 20px;
-      align-items: center;
-    }
-    nav a {
-      color: #000;
-      font-weight: bold;
-      text-decoration: none;
-      padding: 8px 14px;
-      border-radius: 6px;
-      background: rgba(255, 255, 255, 0.25);
-      transition: 0.2s;
-    }
-    nav a:hover {
-      background: #00ff7f;
-      color: #000;
-    }  
   </style>
 </head>
 <body>
+
   <header>
+    MAX2010XD
     <nav>
       <a href="index.html">Startseite</a>
       <a href="info.html">Info</a>
       <a href="events.html">Events</a>
       <a href="clips.html">Clips</a>
       <a href="hall-of-fame.html">Hall of Fame</a>
-    </nav>  
+    </nav>
   </header>
+
   <main>
     <h1>Willkommen in der Gaming-Fam</h1>
     <p class="tagline">Der Ort, an dem Gamer zusammenkommen – Events, Clips, Challenges und Community-Power.</p>
@@ -108,5 +129,6 @@
       </p>
     </div>
   </main>
+
 </body>
 </html>
